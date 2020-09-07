@@ -151,26 +151,6 @@
   },
   {
     "metadata": {
-      "id": "d6f6cfea-4b6f-41f4-b571-6ad2ab7918da",
-      "publisherId": "golang.go",
-      "publisherDisplayName": "Go-Team-At-Google"
-    },
-    "name": "Go",
-    "publisher": "Go-Team-At-Google",
-    "version": "0.12.0"
-  },
-  {
-    "metadata": {
-      "id": "1b0f0167-95f9-4949-bdef-6b7e57137f6a",
-      "publisherId": "msyrus.go-doc",
-      "publisherDisplayName": "msyrus"
-    },
-    "name": "go-doc",
-    "publisher": "msyrus",
-    "version": "0.1.1"
-  },
-  {
-    "metadata": {
       "id": "a2cec723-5349-460d-9de9-0fd1f8d3456f",
       "publisherId": "xabikos.JavaScriptSnippets",
       "publisherDisplayName": "xabikos"
