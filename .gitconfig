@@ -1,0 +1,36 @@
+[alias]
+        acm = "!f() { git add . && git commit -m \"$(echo $@)\"; }; f";
+        com = checkout master
+        cob = checkout -b
+        b = branch
+
+        l = log
+        l1 = log --oneline
+
+        p = push
+        pl = pull
+
+        rao = remote add origin
+        pom = push -u origin master;
+
+        s = status
+
+        # Undo a `git push`
+         undopush = push -f origin HEAD^:master;
+
+        # Undo merge
+        undomerge = reset --hard HEAD@{1};
+
+        # Undo changes not commited
+        undo = reset --hard;
+
+        # Undo last commit and remove from stage
+        # Example
+        # git unstage file1 file2 ...
+        unstage = reset HEAD -- #file;
+
+[user]
+        name = $USERNAME
+        email = $EMAIL
+[user "$EMAIL"]
+        com = $EMAIL
